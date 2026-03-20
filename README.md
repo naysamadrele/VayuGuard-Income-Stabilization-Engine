@@ -72,7 +72,7 @@ Expected Payout = Weekly Earnings × Disruption Probability × Expected Loss %
 
 ---
 
-## ⚡ Multi-Signal Parametric Trigger
+##  Multi-Signal Parametric Trigger
 
 A payout is triggered only when **environmental, platform, and behavioral signals converge**, ensuring no single manipulated input can trigger a claim.
 
