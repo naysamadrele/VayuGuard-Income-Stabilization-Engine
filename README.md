@@ -145,6 +145,17 @@ Organized fraud groups exploit parametric insurance systems by spoofing GPS loca
 
 > This ensures real-world presence before payout escalation.
 
+
+### Layer 6: Network Validation (VPN / Proxy Detection)
+
+To prevent location masking through VPNs or proxy networks, the system incorporates network-level validation:
+
+•⁠  ⁠Detects VPN/proxy usage using IP intelligence signals (ASN, known VPN providers, IP reputation)
+•⁠  ⁠Compares device GPS location with IP-based geolocation consistency
+•⁠  ⁠Flags mismatches between network origin and claimed physical location
+•⁠  ⁠Assigns higher fraud risk to anonymized or masked connections
+
+
 ---
 
 ### Trust Score System
